@@ -1,0 +1,51 @@
+.card__container{
+    background-color: #77777700;
+    min-height: 350px;
+    min-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(80 78 78 / 50%) 3px 3px 20px;
+    transition: all 0.3s ease 0s;
+    font-weight: 300;
+    color: #e4e6e7;
+    border-bottom: rgb(0, 191, 224) solid 8px;
+}
+.card__container h1{
+    color: #9cc9e3;
+    transition: all 0.6s ease 0s;
+
+}
+.card__container:hover{
+    cursor: pointer;
+    max-height: 510px;
+    max-width: 102%;
+    transition: all 0.3s ease 0s;
+    box-shadow: none;
+    border: #555 solid 1px;
+    transform: scale(1.05);
+}
+.card{
+    padding-top: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+}
+.card img{
+    width: 64px;
+    height: 64px;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:link {
+    color: #fff;
+}
+.link:visited {
+    color: #fff;
+}
+.succesful{
+    padding-top: 3rem;
+}
